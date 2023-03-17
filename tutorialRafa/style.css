@@ -129,17 +129,3 @@ body{
     display: block;
     margin: 0 auto;
 }
-
-.conteudo_secao3{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    background-color: #FFCC00;
-}
-
-.categoria_secao3{
-    display: flex;
-    align-items: center;
-    align-items: flex-end;
-    color: #ffffff;
-}
