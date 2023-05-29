@@ -31,6 +31,12 @@
     border: 1px solid black;
 }
 
+.offcanvas-body{
+    border: 1px solid black;
+    max-width: 200px;
+    min-width: 200px;
+}
+
 .categoria, .preco, .marca, .cor, .avaliacao{
     padding-top: 15px;
 }
@@ -44,14 +50,19 @@
     font-weight: 600;
     padding-bottom: 5px;
 }
+
+.filtro_lateral{
+    height: 100vh;
+}
 /*fim do filtro*/
 
 /*inicio do estilo da div produtos*/
 .produtos{
+    /*
     display: flex;
-    flex-direction: column;
+    flex-direction: column;*/
     margin-top: 10px;
-    gap: 30px;
+    /*gap: 30px;*/
     margin-right: auto;
 }
 
@@ -64,9 +75,9 @@
     color: black;
 }
 
-.produto_imagem{
+.img-fluid{
     height: 300px;
-    min-width: 300px;
+    width: 500px;
 }
 
 .produto_nome{
